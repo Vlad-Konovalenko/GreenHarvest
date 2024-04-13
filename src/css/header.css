@@ -1,1 +1,29 @@
+header {
+    background-color: #576F35;
+    padding-top: 20px;
+    padding-bottom: 48px;
+}
+.header-navigation {
+    display: flex;
+    align-items: center;
+}
+.header-logo {
+}
+.logo-icon {
+    fill: #fff;
+    margin-right: 4px;
+}
+.logo-icon-text {
+    fill: #fff;
+}
+.open-menu-btn {
+    display: block;
+    margin-left: auto;
+    border: none;
+    background-color: transparent;
+}
+.menu-open-icon {
+    fill: transparent;
+    stroke: #fff;
+}
 
