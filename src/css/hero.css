@@ -34,13 +34,13 @@ max-width: 335px;
   
 
   @media screen and (min-width: 375px) {
-    .container {
+    .hero-container {
         width: 375px;
     }
   }
 
   @media screen and (min-width: 768px) {
-    .container {
+    .hero-container {
         width: 768px;
     }
 
@@ -72,17 +72,19 @@ margin: 0 -32px;
   }
 
   @media screen and (min-width: 1280px) {
-    .container {
+    .hero-container {
         width: 1280px;
+        padding: 0;
     }
 
     
 .hero-content {
-    padding-top: 238px;
+    padding: 238px 28px 0 100px;
     }
     
     .hero-inner {
         display: flex;
+        flex-direction: row;
     }
     
     .hero-title {
@@ -94,13 +96,12 @@ margin: 0 -32px;
        max-width: 472px;
     }
     .hero-image {
-        z-index: -1;
-        position: relative;
-        left: 68px;
+        margin: 0;
         background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url(/img/hero-images/hero-desc.jpg);
         width: 650px;
         height: 800px;
-       background-position: cover;
+       background-size: cover;
+       background-position: center;
     }
     
     @media screen and (min-resolution: 192dpi), (min-resolution: 192dppx) {
