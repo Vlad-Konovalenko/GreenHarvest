@@ -163,7 +163,7 @@ line-height: 125%;
 }
 
 .how-item {
-    width: 450px;
+    max-width: 450px;
 height: 76px;
 padding: 12px 25px 12px 24px;
 }
