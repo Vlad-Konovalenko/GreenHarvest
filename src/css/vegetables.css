@@ -58,3 +58,79 @@ margin-bottom: 14px;
 }
 .vegetables-image {
 }
+
+@media screen and (min-width: 375px) {
+    .vegetables-container {
+        width: 375px;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .vegetables-container {
+        width: 768px;
+        padding: 0 32px;
+    }
+
+    .vegetables {
+        padding: 100px 0;
+    }
+
+    .vegetables-title {
+        font-size: 64px;
+        line-height: 100%;
+        margin-bottom: 50px;
+        max-width: 508px;
+    }
+
+    .vegetables-text {
+        font-size: 16px;
+line-height: 125%;
+margin-bottom: 50px;
+max-width: 626px;
+    }
+
+    .vegetables-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 28px 20px;
+    }
+
+    .vegetables-item {
+padding-left: 30px;
+padding-right: 30px;
+max-width: 342px;
+        width: calc((100% - 20px) / 2);
+    }
+
+    .vegetables-subtitle {
+        font-size: 32px;
+        margin-bottom: 12px;   
+    }
+
+    .vegetables-subtitle-text {
+        margin-bottom: 10px;
+    }
+}
+
+
+@media screen and (min-width: 1280px) {
+    .vegetables-container {
+        width: 1280px;
+        padding: 0 100px;
+    }
+ 
+    .vegetables-title {
+        margin-bottom: 25px;
+    }
+
+    .vegetables-list {
+        gap: 28px 21px;
+    }
+
+    .vegetables-item {
+        padding: 32px;
+        max-width: 346px;
+        width: calc((100% - 21px * 2) / 3);
+    }
+}
