@@ -20,7 +20,7 @@ max-width: 335px;
 
 .hero-image {
     background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url(/img/hero-images/hero.jpg);
-    width: 375px;
+    max-width: 375px;
     height: 370px;
     margin: 0 -20px;
     background-repeat: no-repeat;
@@ -36,12 +36,14 @@ max-width: 335px;
   @media screen and (min-width: 375px) {
     .hero-container {
         width: 375px;
+ 
     }
   }
 
   @media screen and (min-width: 768px) {
     .hero-container {
         width: 768px;
+        padding: 0 32px;
     }
 
     .hero-title {
@@ -59,9 +61,9 @@ padding-bottom: 50px;
 
     .hero-image {
         background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url(/img/hero-images/hero-tablet.jpg);
-        width: 768px;
+        max-width: 768px;
         height: 539px;
-margin: 0 -32px;
+         margin: 0 -32px;
     }
     
     @media screen and (min-resolution: 192dpi), (min-resolution: 192dppx) {
