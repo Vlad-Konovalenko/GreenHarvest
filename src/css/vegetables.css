@@ -1,0 +1,136 @@
+.vegetables {
+    padding: 80px 0;
+    background-color: #7A3145;
+}
+
+.vegetables-container {
+padding: 0 20px;
+}
+.vegetables-title {
+    font-weight: 600;
+font-size: 48px;
+line-height: 104%;
+letter-spacing: -0.01em;
+text-transform: uppercase;
+color: #fbfbfb;
+margin-bottom: 20px;
+}
+
+.vegetables-title span {
+    color: rgba(251, 251, 251, 0.3);
+}
+.vegetables-text {
+    font-weight: 500;
+font-size: 14px;
+line-height: 129%;
+color: #fbfbfb;
+margin-bottom: 40px;
+}
+.vegetables-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.vegetables-item {
+    border-radius: 40px;
+padding: 32px 26px;
+max-width: 334px;
+height: 379px;
+background-color: #fbfbfb;
+}
+.vegetables-subtitle {
+    font-weight: 600;
+font-size: 28px;
+line-height: 100%;
+letter-spacing: -0.01em;
+color: #7A3145;
+margin-bottom: 20px;
+}
+.vegetables-subtitle-text {
+    font-weight: 600;
+font-size: 14px;
+line-height: 129%;
+letter-spacing: -0.01em;
+text-transform: uppercase;
+color: #141414;
+margin-bottom: 14px;
+}
+.vegetables-image {
+}
+
+@media screen and (min-width: 375px) {
+    .vegetables-container {
+        width: 375px;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .vegetables-container {
+        width: 768px;
+        padding: 0 32px;
+    }
+
+    .vegetables {
+        padding: 100px 0;
+    }
+
+    .vegetables-title {
+        font-size: 64px;
+        line-height: 100%;
+        margin-bottom: 50px;
+        max-width: 508px;
+    }
+
+    .vegetables-text {
+        font-size: 16px;
+line-height: 125%;
+margin-bottom: 50px;
+max-width: 626px;
+    }
+
+    .vegetables-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 28px 20px;
+    }
+
+    .vegetables-item {
+padding-left: 30px;
+padding-right: 30px;
+max-width: 342px;
+        width: calc((100% - 20px) / 2);
+    }
+
+    .vegetables-subtitle {
+        font-size: 32px;
+        margin-bottom: 12px;   
+    }
+
+    .vegetables-subtitle-text {
+        margin-bottom: 10px;
+    }
+}
+
+
+@media screen and (min-width: 1280px) {
+    .vegetables-container {
+        width: 1280px;
+        padding: 0 100px;
+    }
+ 
+    .vegetables-title {
+        margin-bottom: 25px;
+    }
+
+    .vegetables-list {
+        gap: 28px 21px;
+    }
+
+    .vegetables-item {
+        padding: 32px;
+        max-width: 346px;
+        width: calc((100% - 21px * 2) / 3);
+    }
+}
