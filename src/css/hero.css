@@ -100,10 +100,10 @@ padding-bottom: 50px;
     .hero-image {
         margin: 0;
         background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url(/img/hero-images/hero-desc.jpg);
-        min-width: 650px;
+        width: 650px;
         height: 800px;
        background-size: cover;
-       background-position: left;
+       background-position: center;
     }
     
     @media screen and (min-resolution: 192dpi), (min-resolution: 192dppx) {
