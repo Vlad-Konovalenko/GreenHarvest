@@ -186,7 +186,7 @@ flex-wrap: wrap;
 gap: 8px;
 }
 
-.order-link-item {
+.order-link {
     font-weight: 600;
     font-size: 24px;
     line-height: 108%;
@@ -194,8 +194,8 @@ gap: 8px;
     color: #fbfbfb;
     transition: color 250ms cubic-bezier(0.39, 0.575, 0.565, 1);
 }
-.order-link-item:hover,
-.order-link-item:focus {
+.order-link:hover,
+.order-link:focus {
 color: #cccccc;
 }
 
