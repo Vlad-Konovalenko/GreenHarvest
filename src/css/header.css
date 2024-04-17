@@ -8,6 +8,8 @@
     align-items: center;
 }
 .header-logo {
+    display: flex;
+    align-items: center;
 }
 .logo-icon {
     fill: #fff;
