@@ -24,6 +24,7 @@ max-width: 335px;
     height: 370px;
     margin: 0 -20px;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @media screen and (min-resolution: 192dpi), (min-resolution: 192dppx) {
@@ -36,7 +37,6 @@ max-width: 335px;
   @media screen and (min-width: 375px) {
     .hero-container {
         width: 375px;
- 
     }
   }
 
@@ -100,10 +100,10 @@ padding-bottom: 50px;
     .hero-image {
         margin: 0;
         background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url(/img/hero-images/hero-desc.jpg);
-        width: 650px;
+        min-width: 650px;
         height: 800px;
        background-size: cover;
-       background-position: center;
+       background-position: left;
     }
     
     @media screen and (min-resolution: 192dpi), (min-resolution: 192dppx) {
