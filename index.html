@@ -14,7 +14,7 @@
     <title>GreenHarvest</title>
     
     <script type="module" crossorigin src="/GreenHarvest/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/GreenHarvest/assets/index-97b67abe.css">
+    <link rel="stylesheet" href="/GreenHarvest/assets/index-a85086a5.css">
   </head>
   <body>
     <header class="header">
@@ -210,7 +210,66 @@
         </ul>
     </div>
 </section>
-    
+    <section class="your-order">
+    <div class="container order-container">
+        <div class="text-container">
+            <h2 class="order-title">Fresh <span class="title-span">Harvest</span> Box has got you covered</h2>
+            <p class="order-text">Our boxes are packed with delicious, nutritious vegetables, perfect for anyone looking to eat healthier or support local farmers. Order your box today and start enjoying the best that nature has to offer!</p>
+        </div>
+        <div class="order-inner">
+            <div class="order-input-box">
+                <form class="form-order" name="your-order">
+                    <h3 class="input-order-subtitle">Ordering <span class="order-subtitle1">from us</span> is quick and easy! Fill out <span class="order-subtitle2">the form</span> below and we will contact you !</h3>
+                    <input class="order-input" type="text"
+                    name="user-name"
+                    id="user-name" placeholder="Full Name"
+                    pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                    required>
+                    <input class="order-input" type="email" name="user-email" id="user-email" placeholder="Email"
+                    pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                    required
+                    >
+                    <textarea
+                  name="user-comment"
+                  id="user-comment"
+                  placeholder="Comment"
+                  class="order-textarea-text"
+                ></textarea>
+                    <button class="order-send-btn" type="submit">Send</button>
+                </form>
+            </div>
+            <div class="order-link-box">
+                <picture class="order-gradient">
+                    <source
+                            srcset="/GreenHarvest/assets/desk2x-0fd79a36.jpg 2x, /GreenHarvest/assets/desk1x-118850e7.jpg 1x"
+                            media="(min-width: 1280px)"
+                          />
+                          <source
+                            srcset="/GreenHarvest/assets/tab2x-fad0b511.jpg 2x, /GreenHarvest/assets/tab1x-071b42fb.jpg 1x"
+                            media="(min-width: 768px)"
+                          />
+                          <source
+                            srcset="/GreenHarvest/assets/mob2x-5b29977c.jpg 2x, /GreenHarvest/assets/mob1x-a66f78f4.jpg 1x"
+                            media="(min-width: 320px)"
+                          />
+                          <img
+                            src="/GreenHarvest/assets/desk1x-118850e7.jpg"
+                            alt="girl coockies"
+                            width="528"
+                            height="273"
+                            class="order-link-img"
+                          />
+                        </picture>
+                <p class="order-link-text">Follow us on our social networks:</p>
+                <ul class="order-link-list">
+                    <li class="order-link-item"><a class="order-link" href="http://" target="_blank" rel="noopener noreferrer">instagram<span>/</span></a></li>
+                    <li class="order-link-item"><a class="order-link" href="http://" target="_blank" rel="noopener noreferrer"></a>facebook<span>/</span></li>
+                    <li class="order-link-item"><a class="order-link" href="http://" target="_blank" rel="noopener noreferrer"></a>youtube</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
   </main>
   
     
