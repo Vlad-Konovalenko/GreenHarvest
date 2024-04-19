@@ -18,39 +18,60 @@
   </head>
   <body>
     <header class="header">
-    <div class="container header-container">
-        <nav class="header-navigation">      
-            <a class="header-logo" href="./index.html"><svg class="logo-icon" width="16" height="16">
-                <use href="/GreenHarvest/assets/icons-52b21cae.svg#icon-vector"></use>
-            </svg><svg class="logo-icon-text" width="146" height="16">
-                <use href="/GreenHarvest/assets/icons-52b21cae.svg#icon-text"></use>
-            </svg></a>
-            <button type="button" class="open-menu-btn"><svg class="menu-open-icon" width="32" height="32">
-                <use href="/GreenHarvest/assets/icons-52b21cae.svg#icon-open-menu"></use>
-            </svg></button>
-            <div class="nav-wrap"><ul class="header-list">
-                <li class="header-item"><a class="header-link" href="#how-it-works">How It Works</a></li>
-                <li class="header-item"><a class="header-link" href="#vegetables">Vegetables</a></li>
-                <li class="header-item"><a class="header-link" href="#reviews">Reviews</a></li>
-            </ul><button class="header-buy-btn" type="button">Shop now</button>
-        </nav>
-    </div></div>
-    <div class="blackdrop-menu">
-        <div class="mob-menu">
-            <button type="button" class="mob-close-btn"><svg class="close-icon" width="32" height="32"><use href="/GreenHarvest/assets/icons-52b21cae.svg#icon-x"></use>
-            </svg></button>
-                <nav class="mob-menu-nav">
-                    <ul class="mob-menu-list">
-                    <li class="mob-menu-item"><a class="mob-menu-link" href="#how-it-works">How It Works</a></li>
-                    <li class="mob-menu-item"><a class="mob-menu-link" href="#vegetables">Vegetables</a></li>
-                    <li class="mob-menu-item"><a class="mob-menu-link" href="#reviews">Reviews</a></li>
-                </ul>
-                </nav>
-            <button class="mob-buy-btn" type="button">Shop now</button>
-            </div>
+  <div class="container header-container">
+    <nav class="header-navigation">
+      <a class="header-logo" href="./index.html"
+        ><svg class="logo-icon" width="16" height="16">
+          <use href="/GreenHarvest/assets/icons-52b21cae.svg#icon-vector"></use></svg
+        ><svg class="logo-icon-text" width="146" height="16">
+          <use href="/GreenHarvest/assets/icons-52b21cae.svg#icon-text"></use></svg
+      ></a>
+      <button type="button" class="open-menu-btn">
+        <svg class="menu-open-icon" width="32" height="32">
+          <use href="/GreenHarvest/assets/icons-52b21cae.svg#icon-open-menu"></use>
+        </svg>
+      </button>
+      <div class="nav-wrap">
+        <ul class="header-list">
+          <li class="header-item">
+            <a class="header-link" href="#how-it-works">How It Works</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href="#vegetables">Vegetables</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href="#reviews">Reviews</a>
+          </li>
+        </ul>
+        <button class="header-buy-btn" type="button">Shop now</button>
+      </div>
+    </nav>
+  </div>
+  <div class="blackdrop-menu">
+    <div class="mob-menu">
+      <button type="button" class="mob-close-btn">
+        <svg class="close-icon" width="32" height="32">
+          <use href="/GreenHarvest/assets/icons-52b21cae.svg#icon-x"></use>
+        </svg>
+      </button>
+      <nav class="mob-menu-nav">
+        <ul class="mob-menu-list">
+          <li class="mob-menu-item">
+            <a class="mob-menu-link" href="#how-it-works">How It Works</a>
+          </li>
+          <li class="mob-menu-item">
+            <a class="mob-menu-link" href="#vegetables">Vegetables</a>
+          </li>
+          <li class="mob-menu-item">
+            <a class="mob-menu-link" href="#reviews">Reviews</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="mob-buy-btn" type="button">Shop now</button>
     </div>
-    </div>
+  </div>
 </header>
+
     <main>
     <section class="hero">
     <div class="container hero-container">
@@ -221,101 +242,178 @@
     </div>
 </section>
     <section class="your-order">
-    <div class="container order-container">
-        <div class="text-container">
-            <h2 class="order-title">Fresh <span class="title-span">Harvest</span> Box has got you covered</h2>
-            <p class="order-text">Our boxes are packed with delicious, nutritious vegetables, perfect for anyone looking to eat healthier or support local farmers. Order your box today and start enjoying the best that nature has to offer!</p>
-        </div>
-        <div class="order-inner">
-            <div class="order-input-box">
-                <form class="form-order" name="your-order">
-                    <h3 class="input-order-subtitle">Ordering <span class="order-subtitle1">from us</span> is quick and easy! Fill out <span class="order-subtitle2">the form</span> below and we will contact you !</h3>
-                    <input class="order-input" type="text"
-                    name="user-name"
-                    id="user-name" placeholder="Full Name"
-                    pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-                    required>
-                    <input class="order-input" type="email" name="user-email" id="user-email" placeholder="Email"
-                    pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-                    required
-                    >
-                    <textarea
-                  name="user-comment"
-                  id="user-comment"
-                  placeholder="Comment"
-                  class="order-textarea-text"
-                ></textarea>
-                    <button class="order-send-btn" type="submit">Send</button>
-                </form>
-            </div>
-            <div class="order-link-box">
-                <picture class="order-gradient">
-                    <source
-                            srcset="/GreenHarvest/assets/desk2x-0fd79a36.jpg 2x, /GreenHarvest/assets/desk1x-118850e7.jpg 1x"
-                            media="(min-width: 1280px)"
-                          />
-                          <source
-                            srcset="/GreenHarvest/assets/tab2x-fad0b511.jpg 2x, /GreenHarvest/assets/tab1x-071b42fb.jpg 1x"
-                            media="(min-width: 768px)"
-                          />
-                          <source
-                            srcset="/GreenHarvest/assets/mob2x-5b29977c.jpg 2x, /GreenHarvest/assets/mob1x-a66f78f4.jpg 1x"
-                            media="(min-width: 320px)"
-                          />
-                          <img
-                            src="/GreenHarvest/assets/desk1x-118850e7.jpg"
-                            alt="girl coockies"
-                            width="528"
-                            height="273"
-                            class="order-link-img"
-                          />
-                        </picture>
-                <p class="order-link-text">Follow us on our social networks:</p>
-                <ul class="order-link-list">
-                    <li class="order-link-item"><a class="order-link" href="http://" target="_blank" rel="noopener noreferrer">instagram</a><span>/</span></li>
-                    <li class="order-link-item"><a class="order-link" href="http://" target="_blank" rel="noopener noreferrer">facebook</a><span>/</span></li>
-                    <li class="order-link-item"><a class="order-link" href="http://" target="_blank" rel="noopener noreferrer">youtube</a></li>
-                </ul>
-            </div>
-        </div>
+  <div class="container order-container">
+    <div class="text-container">
+      <h2 class="order-title">
+        Fresh <span class="title-span">Harvest</span> Box has got you covered
+      </h2>
+      <p class="order-text">
+        Our boxes are packed with delicious, nutritious vegetables, perfect for
+        anyone looking to eat healthier or support local farmers. Order your box
+        today and start enjoying the best that nature has to offer!
+      </p>
     </div>
+    <div class="order-inner">
+      <div class="order-input-box">
+        <form class="form-order" name="your-order">
+          <h3 class="input-order-subtitle">
+            Ordering <span class="order-subtitle1">from us</span> is quick and
+            easy! Fill out <span class="order-subtitle2">the form</span> below
+            and we will contact you !
+          </h3>
+          <input
+            class="order-input"
+            type="text"
+            name="user-name"
+            id="user-name"
+            placeholder="Full Name"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            required
+          />
+          <input
+            class="order-input"
+            type="email"
+            name="user-email"
+            id="user-email"
+            placeholder="Email"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            required
+          />
+          <textarea
+            name="user-comment"
+            id="user-comment"
+            placeholder="Comment"
+            class="order-textarea-text"
+          ></textarea>
+          <button class="order-send-btn" type="submit">Send</button>
+        </form>
+      </div>
+      <div class="order-link-box">
+        <picture class="order-gradient">
+          <source
+            srcset="/GreenHarvest/assets/desk2x-0fd79a36.jpg 2x, /GreenHarvest/assets/desk1x-118850e7.jpg 1x"
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="/GreenHarvest/assets/tab2x-fad0b511.jpg 2x, /GreenHarvest/assets/tab1x-071b42fb.jpg 1x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/GreenHarvest/assets/mob2x-5b29977c.jpg 2x, /GreenHarvest/assets/mob1x-a66f78f4.jpg 1x"
+            media="(min-width: 320px)"
+          />
+          <img
+            src="/GreenHarvest/assets/desk1x-118850e7.jpg"
+            alt="girl coockies"
+            width="528"
+            height="273"
+            class="order-link-img"
+          />
+        </picture>
+        <p class="order-link-text">Follow us on our social networks:</p>
+        <ul class="order-link-list">
+          <li class="order-link-item">
+            <a
+              class="order-link"
+              href="https://www.instagram.com/goitclub/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >instagram</a
+            ><span>/</span>
+          </li>
+          <li class="order-link-item">
+            <a
+              class="order-link"
+              href="https://www.youtube.com/c/GoIT"
+              target="_blank"
+              rel="noopener noreferrer"
+              >facebook</a
+            ><span>/</span>
+          </li>
+          <li class="order-link-item">
+            <a
+              class="order-link"
+              href="https://www.facebook.com/goITclub/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >youtube</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </section>
+
   </main>
   <footer class="footer">
-    <div class="container footer-container">
-        <div class="footer-inner">
-            <div class="fotter-wrap-logo">
-                <a class="footer-logo" href="./index.html"><svg class="logo-icon" width="16" height="16">
-                    <use href="/GreenHarvest/assets/icons-52b21cae.svg#icon-vector"></use>
-                </svg><svg class="logo-icon-text" width="148" height="12">
-                    <use href="/GreenHarvest/assets/icons-52b21cae.svg#icon-text"></use>
-                </svg></a>
-                <p class="footer-text">Whether you're looking for a healthy snack or a thoughtful gift, our fruit baskets are the perfect choice.</p>
-            </div>
-           <div class="footer-nav-wrap">
-                <nav class="footer-navigation">
-                    <ul class="footer-navigarion-list">
-                        <li class="footer-navigation-item"><a class="footer-nav-link" href="#how-it-works">how it works</a></li>
-                        <li class="footer-navigation-item"><a class="footer-nav-link" href="#vegetables">vegetables</a></li>
-                        <l class="footer-navigation-item"><a class="footer-nav-link" href="#reviews">reviews</a></l>
-                    </ul>
-                </nav>
-                <address class="footer-addres">
-                    <ul class="footer-addres-list">
-                        <li class="footer-addres-item"><a class="footer-addres-link" href="tel:+380 (68) 443-94-26" target="_blank">+380 (68) 443-94-26</a></li>
-                        <li class="footer-addres-item"><a class="footer-addres-link" href="" target="_blank">Pioneer Road Salt <br>Lake City UT 84104</a></li>
-                    </ul>
-                </address></div>
-        </div>
-    <div class="privacy">
-        <ul class="footer-privacy-list">
-            <li class="footer-privacy-item"><a class="footer-privacy-link" href="" target="_blank">Privacy Policy</a><span>/</span></li>
-            <li class="footer-privacy-item"><a class="footer-privacy-link" href="" target="_blank">Cookie settings</a></li>
-            <li class="footer-privacy-item"><p class="footer-privacy-link">©Green Harvest 2023</p></li>
-        </ul>
-       </div>
+  <div class="container footer-container">
+    <div class="footer-inner">
+      <div class="fotter-wrap-logo">
+        <a class="footer-logo" href="./index.html"
+          ><svg class="logo-icon" width="16" height="16">
+            <use href="/GreenHarvest/assets/icons-52b21cae.svg#icon-vector"></use></svg
+          ><svg class="logo-icon-text" width="148" height="12">
+            <use href="/GreenHarvest/assets/icons-52b21cae.svg#icon-text"></use></svg
+        ></a>
+        <p class="footer-text">
+          Whether you're looking for a healthy snack or a thoughtful gift, our
+          fruit baskets are the perfect choice.
+        </p>
+      </div>
+      <div class="footer-nav-wrap">
+        <nav class="footer-navigation">
+          <ul class="footer-navigarion-list">
+            <li class="footer-navigation-item">
+              <a class="footer-nav-link" href="#how-it-works">how it works</a>
+            </li>
+            <li class="footer-navigation-item">
+              <a class="footer-nav-link" href="#vegetables">vegetables</a>
+            </li>
+            <li class="footer-navigation-item">
+              <a class="footer-nav-link" href="#reviews">reviews</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="footer-addres">
+          <ul class="footer-addres-list">
+            <li class="footer-addres-item">
+              <a
+                class="footer-addres-link"
+                href="tel:+380684439426"
+                target="_blank"
+                >+380 (68) 443-94-26</a
+              >
+            </li>
+            <li class="footer-addres-item">
+              <a class="footer-addres-link" href="" target="_blank"
+                >Pioneer Road Salt <br />Lake City UT 84104</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </div>
+    <div class="privacy">
+      <ul class="footer-privacy-list">
+        <li class="footer-privacy-item">
+          <a class="footer-privacy-link" href="" target="_blank"
+            >Privacy Policy</a
+          ><span>/</span>
+        </li>
+        <li class="footer-privacy-item">
+          <a class="footer-privacy-link" href="" target="_blank"
+            >Cookie settings</a
+          >
+        </li>
+        <li class="footer-privacy-item">
+          <p class="footer-privacy-link">©Green Harvest 2023</p>
+        </li>
+      </ul>
+    </div>
+  </div>
 </footer>
+
     
   </body>
 </html>
